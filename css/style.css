@@ -6,13 +6,15 @@ html {
   box-sizing: border-box;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
 body {
   color: #222222;
-  font-family: "Merriweather", Georgia, Times, serif;
+  font-family: 'Merriweather', Georgia, Times, serif;
   font-size: 120%;
   line-height: 1.5;
 }
@@ -75,32 +77,6 @@ a:focus {
   max-width: 42.5em;
 }
 
-.container::after {
-  clear: both;
-  content: "";
-  display: table;
-}
-
-/* Grid */
-@media (min-width: 43.75em) {
-  .sm-one-third {
-    width: 33.3333333333%;
-  }
-
-  .sm-one-half {
-    width: 50%;
-  }  
-}
-
-/* Float */
-.float--left {
-  float: left;
-}
-
-.float--right {
-  float: right;
-}
-
 /********************/
 /*! Content Blocks  */
 /********************/
@@ -108,7 +84,7 @@ a:focus {
 /* Header */
 .site-header {
   margin-bottom: 1.5em;
-  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
 }
 
 .site-header__container {
@@ -131,23 +107,23 @@ a:focus {
     float: left;
     padding-right: 1.25em;
   }
-  
+
   .photo.float--right {
     float: right;
     padding-left: 1.25em;
-  }  
+  }
 }
 
 .photo__img {
   border: 1px solid #a2a2a2;
   border-radius: 4px;
-  padding: .125em;
+  padding: 0.125em;
 }
 
 .photo__caption {
   color: #a2a2a2;
-  font-family: "Montserrat", Helvetica, Arial, sans-serif;
-  font-size: .875em;
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  font-size: 0.875em;
   font-weight: 400;
 }
 
@@ -159,7 +135,7 @@ a:focus {
 
 /* Site Navigation */
 .site-nav {
-  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
   text-align: right;
 }
 
@@ -173,7 +149,7 @@ a:focus {
 
 .site-nav__item {
   display: inline;
-  padding: 0 .25em;
+  padding: 0 0.25em;
 }
 
 .site-nav__item--inactive {
@@ -183,7 +159,7 @@ a:focus {
 /* Footer */
 .site-footer {
   color: #a2a2a2;
-  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
 }
 
 /* Pull Quotes */
