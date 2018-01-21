@@ -120,14 +120,6 @@ make available for screen readers */
   border-bottom: 1px solid #a2a2a2;
 }
 
-.site-nav > ul {
-  list-style: none;
-}
-
-.site-nav li {
-  display: inline-block;
-}
-
 .site-nav a {
   display: block;
   padding: 0.625rem;
